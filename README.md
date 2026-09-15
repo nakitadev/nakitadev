@@ -25,10 +25,11 @@ half — the projects where I was working out how agents, tools, cloud infrastru
 **LLM & Agents**
 
 ![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Amazon SageMaker](https://img.shields.io/badge/Amazon_SageMaker-FF9900?style=for-the-badge&logo=amazonsagemaker&logoColor=white)
+![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-FF5A50?style=for-the-badge&logoColor=white)
-![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=claude&logoColor=white)
 ![OpenRouter](https://img.shields.io/badge/OpenRouter-6566F1?style=for-the-badge&logoColor=white)
@@ -48,7 +49,7 @@ half — the projects where I was working out how agents, tools, cloud infrastru
 
 ![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Aurora PostgreSQL](https://img.shields.io/badge/Aurora_PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B4A?style=for-the-badge&logoColor=white)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
@@ -56,6 +57,20 @@ half — the projects where I was working out how agents, tools, cloud infrastru
 ---
 
 ## Projects
+
+### 📈 [alex-platform](https://github.com/NakitaDev/alex-platform)
+
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=flat-square&logo=openai&logoColor=white)
+![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![SageMaker](https://img.shields.io/badge/SageMaker-FF9900?style=flat-square&logo=amazonsagemaker&logoColor=white)
+![Aurora PostgreSQL](https://img.shields.io/badge/Aurora_PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+An enterprise-grade, multi-agent SaaS financial planning and equities platform (Alex: Agentic Learning Equities eXplainer) built on AWS Serverless and Next.js. Five specialized AI agents—Planner, Tagger, Reporter, Charter, and Retirement—collaborate asynchronously across SQS queues, complemented by an autonomous market researcher running on AWS App Runner equipped with Playwright MCP browser tooling.
+
+Built with ruthless cost-optimization and zero-VPC simplicity in mind: slashes vector search costs by ~90% by substituting OpenSearch with S3 Vectors paired with SageMaker Serverless embedding endpoints, and eliminates Lambda connection-pooling overhead by querying Aurora Serverless v2 PostgreSQL directly via the AWS RDS Data API. Structured as a modular `uv workspace` monorepo, provisioned via modular Terraform, and deployed automatically through GitHub Actions using keyless AWS OIDC authentication.
 
 ### 🤖 [digital-twin](https://github.com/NakitaDev/digital-twin)
 
@@ -112,6 +127,7 @@ Four agents run in sequence — lead, backend, frontend, test — each handing o
 Generated code executes inside an ephemeral Docker container rather than on the host, and the
 sandbox is wiped and rebuilt on every run, so the agents only ever have the standard library
 plus what I've explicitly installed.
+
 ### 🗡️ [hollow-lore-master](https://github.com/NakitaDev/hollow-lore-master)
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
@@ -126,8 +142,6 @@ chunking, embedding generation, and persistence to a vector store (ChromaDB loca
 for hosted indexes) — orchestrated with a LangGraph StateGraph and short-term checkpointer
 memory that delivers real-time token streaming and grounded answers with explicit source
 citations.
-
-
 
 ---
 
