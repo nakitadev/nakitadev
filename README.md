@@ -6,6 +6,8 @@ Civil engineer turned AI engineer. I build systems where model output has to hol
 scrutiny: document extraction that feeds payroll, agents that pause for human approval before
 acting, and serverless AI applications backed by automated Infrastructure-as-Code delivery.
 
+
+
 Most of my production work lives in a private client repository. What's here is the public
 half — the projects where I was working out how agents, tools, cloud infrastructure, and CI/CD pipelines actually fit together.
 
@@ -21,11 +23,13 @@ half — the projects where I was working out how agents, tools, cloud infrastru
 ![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
 **LLM & Agents**
 
 ![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Amazon SageMaker](https://img.shields.io/badge/Amazon_SageMaker-FF9900?style=for-the-badge&logo=amazonsagemaker&logoColor=white)
+![PydanticAI](https://img.shields.io/badge/PydanticAI-E92063?style=for-the-badge&logoColor=white)
 ![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
@@ -49,6 +53,7 @@ half — the projects where I was working out how agents, tools, cloud infrastru
 
 ![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![TimescaleDB](https://img.shields.io/badge/TimescaleDB-FDB515?style=for-the-badge&logo=postgresql&logoColor=black)
 ![Aurora PostgreSQL](https://img.shields.io/badge/Aurora_PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B4A?style=for-the-badge&logoColor=white)
@@ -57,6 +62,19 @@ half — the projects where I was working out how agents, tools, cloud infrastru
 ---
 
 ## Projects
+
+### 🏢 [alto-ai-facility](https://github.com/NakitaDev/alto-ai-facility)
+
+![PydanticAI](https://img.shields.io/badge/PydanticAI-E92063?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![TimescaleDB](https://img.shields.io/badge/TimescaleDB-FDB515?style=flat-square&logo=postgresql&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-6566F1?style=flat-square&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+An enterprise-grade, grounded conversational AI assistant designed for commercial facility managers and HVAC operators (Bangkok, UTC+7). Interfaces directly with TimescaleDB hypertables to deliver verified, deterministic equipment telemetry and energy metrics across cooling towers, chillers, and AHUs.
+
+Architected with a Dual-Process cognitive pipeline: a sub-90ms System 1 non-autoregressive guard (Jev AI) acts as an instant tripwire against write commands, unmonitored sensors, and prompt injections with zero token spend, shielding a deliberative System 2 PydanticAI agent. Strictly enforces physical safety invariants via a propose-only Human-in-the-Loop (HITL) queue and eliminates model arithmetic hallucinations by executing Riemann-sum energy calculations directly in SQL (`SUM(power_kw * 5/60)`). Fully containerized with a local Streamlit console and validated against a 10-question evaluation harness with a 100% golden pass rate.
 
 ### 📈 [alex-platform](https://github.com/NakitaDev/alex-platform)
 
