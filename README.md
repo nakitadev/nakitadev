@@ -30,6 +30,7 @@ half — the projects where I was working out how agents, tools, cloud infrastru
 ![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Amazon SageMaker](https://img.shields.io/badge/Amazon_SageMaker-FF9900?style=for-the-badge&logo=amazonsagemaker&logoColor=white)
 ![PydanticAI](https://img.shields.io/badge/PydanticAI-E92063?style=for-the-badge&logoColor=white)
+![TypeSafe AI](https://img.shields.io/badge/TypeSafe_AI_(Jev)-4F46E5?style=for-the-badge&logoColor=white)
 ![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
@@ -66,6 +67,7 @@ half — the projects where I was working out how agents, tools, cloud infrastru
 ### 🏢 [alto-ai-facility](https://github.com/NakitaDev/alto-ai-facility)
 
 ![PydanticAI](https://img.shields.io/badge/PydanticAI-E92063?style=flat-square)
+![TypeSafe AI](https://img.shields.io/badge/TypeSafe_AI_(Jev)-4F46E5?style=flat-square)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![TimescaleDB](https://img.shields.io/badge/TimescaleDB-FDB515?style=flat-square&logo=postgresql&logoColor=black)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
