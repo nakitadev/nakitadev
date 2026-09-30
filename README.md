@@ -64,7 +64,7 @@ half — the projects where I was working out how agents, tools, cloud infrastru
 
 ## Projects
 
-### 🏢 [alto-ai-facility](https://github.com/NakitaDev/alto-ai-facility)
+### 🏢 [smart-ai-facility](https://github.com/NakitaDev/smart-ai-facility)
 
 ![PydanticAI](https://img.shields.io/badge/PydanticAI-E92063?style=flat-square)
 ![TypeSafe AI](https://img.shields.io/badge/TypeSafe_AI_(Jev)-4F46E5?style=flat-square)
