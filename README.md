@@ -64,7 +64,7 @@ half — the projects where I was working out how agents, tools, cloud infrastru
 
 ## Projects
 
-### 🏢 [smart-ai-facility](https://github.com/NakitaDev/smart-ai-facility)
+### 🏢 [smart-ai-facility](https://github.com/nakitadev/smart-ai-facility)
 
 ![PydanticAI](https://img.shields.io/badge/PydanticAI-E92063?style=flat-square)
 ![TypeSafe AI](https://img.shields.io/badge/TypeSafe_AI_(Jev)-4F46E5?style=flat-square)
@@ -78,7 +78,7 @@ An enterprise-grade, grounded conversational AI assistant designed for commercia
 
 Architected with a Dual-Process cognitive pipeline: a sub-90ms System 1 non-autoregressive guard (Jev AI) acts as an instant tripwire against write commands, unmonitored sensors, and prompt injections with zero token spend, shielding a deliberative System 2 PydanticAI agent. Strictly enforces physical safety invariants via a propose-only Human-in-the-Loop (HITL) queue and eliminates model arithmetic hallucinations by executing Riemann-sum energy calculations directly in SQL (`SUM(power_kw * 5/60)`). Fully containerized with a local Streamlit console and validated against a 10-question evaluation harness with a 100% golden pass rate.
 
-### 📈 [alex-platform](https://github.com/NakitaDev/alex-platform)
+### 📈 [alex-platform](https://github.com/nakitadev/alex-platform)
 
 ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=flat-square&logo=openai&logoColor=white)
@@ -92,7 +92,7 @@ An enterprise-grade, multi-agent SaaS financial planning and equities platform (
 
 Built with ruthless cost-optimization and zero-VPC simplicity in mind: slashes vector search costs by ~90% by substituting OpenSearch with S3 Vectors paired with SageMaker Serverless embedding endpoints, and eliminates Lambda connection-pooling overhead by querying Aurora Serverless v2 PostgreSQL directly via the AWS RDS Data API. Structured as a modular `uv workspace` monorepo, provisioned via modular Terraform, and deployed automatically through GitHub Actions using keyless AWS OIDC authentication.
 
-### 🤖 [digital-twin](https://github.com/NakitaDev/digital-twin)
+### 🤖 [digital-twin](https://github.com/nakitadev/digital-twin)
 
 ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
@@ -106,7 +106,7 @@ An interactive, production-grade AI Digital Twin conversational companion repres
 
 Features dual-LLM resilience with AWS Bedrock as primary and OpenRouter as automated fallback, stateful session memory backed by Amazon S3, and dark-mode first UI. Provisioned entirely via Terraform Infrastructure-as-Code with remote S3/DynamoDB state locking and automated multi-environment CI/CD via GitHub Actions using keyless AWS OIDC authentication.
 
-### 🔍 [deep-research-agent](https://github.com/NakitaDev/deep-research-agent)
+### 🔍 [deep-research-agent](https://github.com/nakitadev/deep-research-agent)
 
 ![OpenAI Agents SDK](https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=flat-square&logo=openai&logoColor=white)
 ![OpenRouter](https://img.shields.io/badge/OpenRouter-6566F1?style=flat-square&logoColor=white)
@@ -122,7 +122,7 @@ the SDK to Chat Completions mode and replacing the hosted web-search tool with a
 Serper call, since OpenRouter supports neither — working out which parts of an agent
 framework are provider-agnostic and which are quietly coupled to one vendor.
 
-### 🤖 [langchain-sidekick](https://github.com/NakitaDev/langchain-sidekick)
+### 🤖 [langchain-sidekick](https://github.com/nakitadev/langchain-sidekick)
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
@@ -135,7 +135,7 @@ before replying. It plans work through a visible todo list, drives a real browse
 sandboxed filesystem through MCP servers, and pauses for human approval before sensitive
 actions.
 
-### 🏗️ [engineering-team](https://github.com/NakitaDev/engineering-team)
+### 🏗️ [engineering-team](https://github.com/nakitadev/engineering-team)
 
 ![CrewAI](https://img.shields.io/badge/CrewAI-FF5A50?style=flat-square&logoColor=white)
 ![MCP](https://img.shields.io/badge/Context7_MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
@@ -148,7 +148,7 @@ Generated code executes inside an ephemeral Docker container rather than on the 
 sandbox is wiped and rebuilt on every run, so the agents only ever have the standard library
 plus what I've explicitly installed.
 
-### 🗡️ [hollow-lore-master](https://github.com/NakitaDev/hollow-lore-master)
+### 🗡️ [hollow-lore-master](https://github.com/nakitadev/hollow-lore-master)
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B4A?style=flat-square&logoColor=white)
