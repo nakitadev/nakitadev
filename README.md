@@ -1,6 +1,6 @@
 # Hi, I'm Night 👋
 
-**AI Engineer — LLM applications, RAG pipelines, and agentic systems.**
+**AI Engineer - LLM applications, RAG pipelines, and agentic systems.**
 
 Civil engineer turned AI engineer. I build systems where model output has to hold up under
 scrutiny: document extraction that feeds payroll, agents that pause for human approval before
@@ -9,7 +9,7 @@ acting, and serverless AI applications backed by automated Infrastructure-as-Cod
 
 
 Most of my production work lives in a private client repository. What's here is the public
-half — the projects where I was working out how agents, tools, cloud infrastructure, and CI/CD pipelines actually fit together.
+half - the projects where I was working out how agents, tools, cloud infrastructure, and CI/CD pipelines actually fit together.
 
 📫 **atichat.cs@gmail.com** · 📍 Bangkok, Thailand
 
